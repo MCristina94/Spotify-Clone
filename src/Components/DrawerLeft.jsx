@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark as faBookmarkRegular } from "@fortawesome/free-regular-svg-icons";
 import { faBookmark as faBookmarkSolid } from "@fortawesome/free-solid-svg-icons";
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
 const DrawerLeft = () => {
   const [expanded, setExpanded] = useState(false);
@@ -17,7 +18,7 @@ const DrawerLeft = () => {
         {/* Botón para expandir/cerrar */}
         <button
           onClick={() => setExpanded(!expanded)}
-          className="mb-4 flex items-center gap-2 p-2 rounded-lg cursor-pointer"
+          className=" flex items-center gap-2 p-2 rounded-lg cursor-pointer"
         >
           <FontAwesomeIcon
             icon={expanded ? faBookmarkSolid : faBookmarkRegular}
@@ -31,6 +32,20 @@ const DrawerLeft = () => {
         </button>
 
         {/* Menú de navegación */}
+        <nav className="mt-4 w-full">
+          {expanded ? (
+            <div>{/* expandido */}</div>
+          ) : (
+            <div className="flex flex-col items-center">
+              <div className="w-8 h-8 rounded-3xl content-center text-center bg-[#282828] cursor-pointer">
+                <FontAwesomeIcon
+                  icon={faPlus}
+                  className="text-[#7d7d7d] hover:text-white"
+                />
+              </div>
+            </div>
+          )}
+        </nav>
       </div>
     </div>
   );
