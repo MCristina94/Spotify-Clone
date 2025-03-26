@@ -19,7 +19,7 @@ const Navbar = () => {
         />
       </div>
       <div className="flex flex-row m-4 gap-2">
-        <div className="w-12 h-12 rounded-3xl content-center text-center bg-[#212020] hover:bg-[#2A2A2A] hover:scale-105 transition-transform cursor-pointer">
+        <div className="w-12 h-12 rounded-3xl content-center text-center bg-[#121212] hover:bg-[#2A2A2A] hover:scale-105 transition-transform cursor-pointer">
           <FontAwesomeIcon
             icon={faHouse}
             className="text-[#7d7d7d] text-[20px] hover:text-white transition-colors duration-200 "
@@ -34,7 +34,7 @@ const Navbar = () => {
             type="text"
             name="search"
             id="search"
-            className="block w-full pl-10 pr-3 py-2.5 text-base placeholder:text-[#7d7d7d] focus:outline-none sm:text-sm rounded-3xl bg-[#212020] hover:bg-[#2A2A2A] border-2 border-transparent hover:border-white focus:border-white transition-all duration-200"
+            className="block w-full pl-10 pr-3 py-2.5 text-base placeholder:text-[#7d7d7d] focus:outline-none sm:text-sm rounded-3xl bg-[#121212] hover:bg-[#2A2A2A] border-2 border-transparent hover:border-white focus:border-white transition-all duration-200"
             placeholder="¿Qué quieres reproducir?"
           />
         </div>
