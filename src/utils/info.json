@@ -2,78 +2,78 @@
   "songsDrawerLeft": [
     {
       "album": "Canciones que te gustan",
-      "image": "assets/images/likeSongs.png",
+      "image": "../../public/images/likeSongs.png",
       "info": "Lista - 35 canciones"
     },
     {
       "album": "Rawayana",
-      "image": "assets/images/rawayana.jpg",
+      "image": "../../public/images/rawayana.jpeg",
       "info": "Artista"
     },
     {
       "album": "Bizarrap",
-      "image": "assets/images/bizarrap.jpg",
+      "image": "../../public/images/bizarrap.jpeg",
       "info": "Artista"
     },
     {
       "album": "Good Charlotte",
-      "image": "assets/images/goodcharlotte.jpg",
+      "image": "../../public/images/goodcharlotte.jpeg",
       "info": "Artista"
     },
     {
       "album": "Green day",
-      "image": "assets/images/greenday.jpg",
+      "image": "../../public/images/greenday.jpeg",
       "info": "artista"
     },
     {
       "album": "Imagine dragons",
-      "image": "assets/images/imaginedragons.jpg",
+      "image": "../../public/images/imaginedragons.jpeg",
       "info": "Artista"
     },
     {
       "album": "El Kanka",
-      "image": "assets/images/kanka.jpg",
+      "image": "../../public/images/kanka.jpeg",
       "info": "Artista"
     },
     {
       "album": "Té Canela",
-      "image": "assets/images/tecanela.jpg",
+      "image": "../../public/images/tecanela.jpeg",
       "info": "Artista"
     },
     {
       "album": "The Killers",
-      "image": "assets/images/thekillers.jpg",
+      "image": "../../public/images/thekillers.jpeg",
       "info": "Artista"
     },
     {
       "album": "The White Stripes",
-      "image": "assets/images/thewhitestripes.jpg",
+      "image": "../../public/images/thewhitestripes.jpeg",
       "info": "Artista"
     },
     {
       "album": "This is Camilo",
-      "image": "assets/images/thisiscamilo.jpg",
+      "image": "../../public/images/thisiscamilo.jpg",
       "info": "Lista - Spotify"
     },
 
     {
       "album": "This is ColdPlay",
-      "image": "assets/images/thisiscoldplay.jpg",
+      "image": "../../public/images/thisiscoldplay.jpeg",
       "info": "Lista - Spotify"
     },
     {
       "album": "This is Green Day",
-      "image": "assets/images/thisisgreenday.jpg",
+      "image": "../../public/images/thisisgreenday.jpg",
       "info": "Lista - Spotify"
     },
     {
       "album": "This is Shakira",
-      "image": "assets/images/thisisShakira.jpg",
+      "image": "../../public/images/thisishakira.jpg",
       "info": "Lista - Spotify"
     },
     {
       "album": "Vance Joy",
-      "image": "assets/images/vanceejoy.jpg",
+      "image": "../../public/images/vanceejoy.jpeg",
       "info": "Artista"
     }
   ]

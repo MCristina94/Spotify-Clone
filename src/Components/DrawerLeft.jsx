@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark as faBookmarkRegular } from "@fortawesome/free-regular-svg-icons";
 import { faBookmark as faBookmarkSolid } from "@fortawesome/free-solid-svg-icons";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import DataSongs from "../utils/info.json";
 
 const DrawerLeft = () => {
   const [expanded, setExpanded] = useState(false);
@@ -42,6 +43,16 @@ const DrawerLeft = () => {
                   icon={faPlus}
                   className="text-[#7d7d7d] hover:text-white"
                 />
+              </div>
+              <div>
+                {DataSongs.songsDrawerLeft.map((song, index) => (
+                  <img
+                    key={index}
+                    src={song.image}
+                    alt={song.album}
+                    className="my-2 rounded-sm"
+                  />
+                ))}
               </div>
             </div>
           )}
