@@ -96,5 +96,27 @@
       "album": "This is ColdPlay",
       "image": "../../public/images/thisiscoldplay.jpeg"
     }
+  ],
+  "recomendations": [
+    {
+      "album": "Bryan Adams",
+      "image": "../../public/images/bryanadams.jpeg",
+      "info": "Las novedades de artistas..."
+    },
+    {
+      "album": "Artic Monkeys",
+      "image": "../../public/images/articmonkeys.jpeg",
+      "info": "Este es un album que te puede gustar"
+    },
+    {
+      "album": "Descubrimientos de la semana",
+      "image": "../../public/images/descubrimientosemanal.jpeg",
+      "info": "Tu combinado semanal de música fresca"
+    },
+    {
+      "album": "Kiss",
+      "image": "../../public/images/kiss.jpeg",
+      "info": "Un clasico especial para hoy"
+    }
   ]
 }

@@ -28,7 +28,7 @@ const Home = () => {
         {songsHome.map((song, index) => (
           <div
             key={index}
-            className="flex flex-row items-center gap-3 bg-[#595a74] m-2 rounded-sm h-[70px] w-100 "
+            className="flex flex-row items-center gap-3 bg-[rgba(89,90,116,0.6)] m-2 rounded-sm h-[70px] w-90"
           >
             <img
               src={song.image}
@@ -38,6 +38,11 @@ const Home = () => {
             <h3 className="text-[14px] text-white"> {song.album}</h3>
           </div>
         ))}
+      </div>
+
+      <div className="ml-2 my-5 flex flex-col">
+        <h2 className="text-[24px] font-bold">Especialmente para ti</h2>
+        <div></div>
       </div>
     </div>
   );
