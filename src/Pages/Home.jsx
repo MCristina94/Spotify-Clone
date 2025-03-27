@@ -12,7 +12,7 @@ const Home = () => {
           "linear-gradient(180deg, rgba(67,70,100,1) 10%, rgba(45,46,65,1) 22%, rgba(18,18,18,1) 100%)",
       }}
     >
-      <div className="flex flex-row mb-5 gap-2">
+      <div className="flex flex-row mb-5 gap-2 ml-2">
         <div className=" bg-[#595a74] cursor-pointer p-2 px-3 rounded-3xl hover:bg-white hover:text-black">
           <h3 className="text-[13px] font-light">Todo</h3>
         </div>

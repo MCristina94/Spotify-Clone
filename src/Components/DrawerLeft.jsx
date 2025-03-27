@@ -105,7 +105,7 @@ const DrawerLeft = () => {
             </div>
           ) : (
             <div className="flex flex-col items-center">
-              <div className="w-8 h-8 rounded-3xl content-center text-center bg-[#282828] cursor-pointer">
+              <div className="w-8 h-8 rounded-3xl content-center text-center bg-[#282828] cursor-pointer mb-5">
                 <FontAwesomeIcon
                   icon={faPlus}
                   className="text-[#7d7d7d] hover:text-white"
