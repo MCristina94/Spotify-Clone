@@ -23,7 +23,7 @@
     {
       "album": "Green day",
       "image": "../../public/images/greenday.jpeg",
-      "info": "artista"
+      "info": "Artista"
     },
     {
       "album": "Imagine dragons",
@@ -60,21 +60,6 @@
       "album": "This is ColdPlay",
       "image": "../../public/images/thisiscoldplay.jpeg",
       "info": "Lista - Spotify"
-    },
-    {
-      "album": "This is Green Day",
-      "image": "../../public/images/thisisgreenday.jpg",
-      "info": "Lista - Spotify"
-    },
-    {
-      "album": "This is Shakira",
-      "image": "../../public/images/thisishakira.jpg",
-      "info": "Lista - Spotify"
-    },
-    {
-      "album": "Vance Joy",
-      "image": "../../public/images/vanceejoy.jpeg",
-      "info": "Artista"
     }
   ]
 }
