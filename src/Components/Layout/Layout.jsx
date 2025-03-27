@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar";
 import DrawerLeft from "../DrawerLeft";
+import Footer from "../Footer";
 
 const Layout = ({ children }) => {
   return (
@@ -16,6 +17,7 @@ const Layout = ({ children }) => {
           {children}
         </div>
       </div>
+      <Footer className=" w-full " />
     </div>
   );
 };
