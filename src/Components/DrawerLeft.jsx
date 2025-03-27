@@ -19,9 +19,7 @@ const DrawerLeft = () => {
         expanded ? "w-68" : "w-20"
       }`}
     >
-      {/* Contenedor del Sidebar */}
       <div className="flex flex-col w-full h-full p-4 items-center">
-        {/* Botón para expandir/cerrar */}
         <button
           onClick={() => setExpanded(!expanded)}
           className=" flex items-center gap-2 p-2 rounded-lg cursor-pointer"
@@ -45,7 +43,6 @@ const DrawerLeft = () => {
           )}
         </button>
 
-        {/* Menú de navegación */}
         <nav className="mt-4 w-full">
           {expanded ? (
             <div>

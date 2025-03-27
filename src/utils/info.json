@@ -61,5 +61,40 @@
       "image": "../../public/images/thisiscoldplay.jpeg",
       "info": "Lista - Spotify"
     }
+  ],
+  "songsHome": [
+    {
+      "album": "Radio Lady Gaga",
+      "image": "../../public/images/radioladygaga.jpeg"
+    },
+    {
+      "album": "Rawayana",
+      "image": "../../public/images/rawayana.jpeg"
+    },
+    {
+      "album": "Bizarrap",
+      "image": "../../public/images/bizarrap.jpeg"
+    },
+    {
+      "album": "This is Green Day",
+      "image": "../../public/images/thisisgreenday.jpg"
+    },
+    {
+      "album": "This is Shakira",
+      "image": "../../public/images/thisishakira.jpg"
+    },
+    {
+      "album": "Vance Joy",
+      "image": "../../public/images/vanceejoy.jpeg"
+    },
+    {
+      "album": "This is Camilo",
+      "image": "../../public/images/thisiscamilo.jpg"
+    },
+
+    {
+      "album": "This is ColdPlay",
+      "image": "../../public/images/thisiscoldplay.jpeg"
+    }
   ]
 }

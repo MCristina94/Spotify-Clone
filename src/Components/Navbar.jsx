@@ -7,7 +7,6 @@ import {
   faCircleArrowDown,
 } from "@fortawesome/free-solid-svg-icons";
 import { faBell } from "@fortawesome/free-regular-svg-icons";
-import { theme } from "../style/theme";
 
 const Navbar = () => {
   return (

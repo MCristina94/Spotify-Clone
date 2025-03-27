@@ -1,11 +1,14 @@
 import DrawerLeft from "./Components/DrawerLeft";
+import Layout from "./Components/Layout/Layout";
 import Navbar from "./Components/Navbar";
+import Home from "./Pages/Home";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <DrawerLeft />
+      <Layout>
+        <Home />
+      </Layout>
     </>
   );
 }
