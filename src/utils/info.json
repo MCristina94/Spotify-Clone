@@ -111,12 +111,64 @@
     {
       "album": "Descubrimientos de la semana",
       "image": "../../public/images/descubrimientosemanal.jpeg",
-      "info": "Tu combinado semanal de música fresca"
+      "info": "Tu combinado semanal de música ..."
     },
     {
       "album": "Kiss",
       "image": "../../public/images/kiss.jpeg",
       "info": "Un clasico especial para hoy"
+    },
+    {
+      "album": "Adele",
+      "image": "../../public/images/adele.jpeg",
+      "info": "Puede gustarte este artist..."
+    },
+    {
+      "album": "Daftpunk",
+      "image": "../../public/images/daftpunk.jpeg",
+      "info": "Escucha esta banda hoy"
+    },
+    {
+      "album": "Dua lipa",
+      "image": "../../public/images/dualipa.jpeg",
+      "info": "Si quieres bailar, escucha a Dua Lipa"
+    }
+  ],
+  "mostListened": [
+    {
+      "album": "Ariana Grande",
+      "image": "../../public/images/arianagrande.jpeg",
+      "info": "Los exitos del pop de Ariana"
+    },
+    {
+      "album": "BTS",
+      "image": "../../public/images/bts.jpeg",
+      "info": "Las mejores canciones de BTS!"
+    },
+    {
+      "album": "Justin Bieber",
+      "image": "../../public/images/justinbieber.jpeg",
+      "info": "Al ritmo de Justin Bieber"
+    },
+    {
+      "album": "Paramore",
+      "image": "../../public/images/paramore.jpeg",
+      "info": "Un clasico alternativo..."
+    },
+    {
+      "album": "Sabrina Carpenter",
+      "image": "../../public/images/sabrinacarpenter.jpeg",
+      "info": "Elección de exitos de Sabrina Carpenter."
+    },
+    {
+      "album": "Taylor Swift",
+      "image": "../../public/images/taylorswift.jpeg",
+      "info": "Lo mejor de Taylor Swift, pop del bueno"
+    },
+    {
+      "album": "The Weekend",
+      "image": "../../public/images/theweekend.jpeg",
+      "info": "Especial para salir de viaje"
     }
   ]
 }
