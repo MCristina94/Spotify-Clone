@@ -1,8 +1,10 @@
 import React from "react";
 import dataSongsHome from "../utils/info.json";
+import Card from "../Components/Card";
 
 const Home = () => {
   const songsHome = dataSongsHome.songsHome;
+  const songsRecomendation = dataSongsHome.recomendations;
 
   return (
     <div
@@ -42,7 +44,9 @@ const Home = () => {
 
       <div className="ml-2 my-5 flex flex-col">
         <h2 className="text-[24px] font-bold">Especialmente para ti</h2>
-        <div></div>
+        <div>
+          <Card />
+        </div>
       </div>
     </div>
   );
