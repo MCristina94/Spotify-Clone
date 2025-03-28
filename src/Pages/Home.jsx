@@ -27,11 +27,11 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap cursor-pointer">
         {songsHome.map((song, index) => (
           <div
             key={index}
-            className="flex flex-row items-center gap-3 bg-[rgba(89,90,116,0.6)] m-2 rounded-sm h-[70px] w-90"
+            className="flex flex-row items-center gap-3 bg-[rgba(89,90,116,0.6)] m-2 rounded-sm h-[70px] w-90 hover:bg-[rgba(81,86,127,0.5)]"
           >
             <img
               src={song.image}
