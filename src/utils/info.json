@@ -80,12 +80,14 @@
     {
       "album": "Bryan Adams",
       "image": "../../public/images/bryanadams.jpeg",
-      "info": "Las novedades de artistas..."
+      "info": "Las novedades de artistas...",
+      "song": "Heaven"
     },
     {
-      "album": "Artic Monkeys",
+      "album": "Arctic Monkeys",
       "image": "../../public/images/articmonkeys.jpeg",
-      "info": "Este es un album que te puede gustar"
+      "info": "Este es un album que te puede gustar",
+      "song": "Do I Wanna Know?"
     },
     {
       "album": "Descubrimientos de la semana",
@@ -95,59 +97,70 @@
     {
       "album": "Kiss",
       "image": "../../public/images/kiss.jpeg",
-      "info": "Un clasico especial para hoy"
+      "info": "Un clasico especial para hoy",
+      "song": "Sweet Child O'Mine"
     },
     {
       "album": "Adele",
       "image": "../../public/images/adele.jpeg",
-      "info": "Puede gustarte este artist..."
+      "info": "Puede gustarte este artist...",
+      "song": "Someone Like You"
     },
     {
       "album": "Daftpunk",
       "image": "../../public/images/daftpunk.jpeg",
-      "info": "Escucha esta banda hoy"
+      "info": "Escucha esta banda hoy",
+      "song": "Get Lucky"
     },
     {
       "album": "Dua lipa",
       "image": "../../public/images/dualipa.jpeg",
-      "info": "Si quieres bailar, escucha a Dua Lipa"
+      "info": "Si quieres bailar, escucha a Dua Lipa",
+      "song": "Don't Start Now"
     }
   ],
   "mostListened": [
     {
       "album": "Ariana Grande",
       "image": "../../public/images/arianagrande.jpeg",
-      "info": "Los exitos del pop de Ariana"
+      "info": "Los exitos del pop de Ariana",
+      "song": "Thank u, next"
     },
     {
       "album": "BTS",
       "image": "../../public/images/bts.jpeg",
-      "info": "Las mejores canciones de BTS!"
+      "info": "Las mejores canciones de BTS!",
+      "song": "Butter"
     },
     {
       "album": "Justin Bieber",
       "image": "../../public/images/justinbieber.jpeg",
-      "info": "Al ritmo de Justin Bieber"
+      "info": "Al ritmo de Justin Bieber",
+      "song": "Somebody to Love"
     },
     {
       "album": "Paramore",
       "image": "../../public/images/paramore.jpeg",
-      "info": "Un clasico alternativo..."
+      "info": "Un clasico alternativo...",
+      "song": "Crush Crush Crush"
     },
     {
       "album": "Sabrina Carpenter",
       "image": "../../public/images/sabrinacarpenter.jpeg",
-      "info": "Elección de exitos de Sabrina Carpenter."
+      "info": "Elección de exitos de Sabrina Carpenter.",
+      "song": "Expresso"
     },
     {
       "album": "Taylor Swift",
       "image": "../../public/images/taylorswift.jpeg",
-      "info": "Lo mejor de Taylor Swift, pop del bueno"
+      "info": "Lo mejor de Taylor Swift, pop del bueno",
+      "song": "Shake it Off"
     },
     {
       "album": "The Weekend",
       "image": "../../public/images/theweekend.jpeg",
-      "info": "Especial para salir de viaje"
+      "info": "Especial para salir de viaje",
+      "song": "Earned It"
     }
   ]
 }

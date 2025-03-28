@@ -7,6 +7,7 @@ import DrawerRight from "../DrawerRight";
 const Layout = ({ children }) => {
   const [expanded, setExpanded] = useState(false);
   const [expandedRight, setExpandedRight] = useState(false);
+  const [selectedCard, setSelectedCard] = useState(null);
   return (
     <div className="h-screen flex flex-col">
       <Navbar className="h-[60px] fixed w-full top-0 z-10" />
@@ -20,16 +21,20 @@ const Layout = ({ children }) => {
           <DrawerRight
             expanded={expandedRight}
             setExpanded={setExpandedRight}
+            selectedCard={selectedCard}
           />
         </div>
 
         <div
           className={`flex-grow text-white mr-5 transition-all duration-300 pb-[105px] ${
             expanded ? "ml-48" : "null"
-          } ${expandedRight ? "mr-60" : "null"}`}
+          } ${expandedRight ? "mr-75" : "null"}`}
         >
           {React.cloneElement(children, {
-            onCardClick: () => setExpandedRight(true),
+            onCardClick: (card) => {
+              setSelectedCard(card);
+              setExpandedRight(true);
+            },
           })}
         </div>
       </div>

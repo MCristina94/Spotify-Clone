@@ -47,7 +47,11 @@ const Home = ({ onCardClick }) => {
         <h2 className="text-[24px] font-bold">Especialmente para ti</h2>
         <div className="flex flex-wrap gap-2">
           {songsRecomendation.map((song, index) => (
-            <Card key={index} recomendations={song} onCardClick={onCardClick} />
+            <Card
+              key={index}
+              recomendations={song}
+              onCardClick={() => onCardClick(song)}
+            />
           ))}
         </div>
       </div>
@@ -56,7 +60,11 @@ const Home = ({ onCardClick }) => {
         <h2 className="text-[24px] font-bold">Los artistas más escuchados</h2>
         <div className="flex flex-wrap gap-2">
           {mostListened.map((song, index) => (
-            <Card key={index} recomendations={song} onCardClick={onCardClick} />
+            <Card
+              key={index}
+              recomendations={song}
+              onCardClick={() => onCardClick(song)}
+            />
           ))}
         </div>
       </div>
