@@ -13,7 +13,7 @@ import {
 const DrawerLeft = ({ expanded, setExpanded }) => {
   return (
     <div
-      className={`mt-22 ml-5 rounded-lg h-[80%] bg-[#121212] text-white flex transition-all duration-300 fixed ${
+      className={`mt-22 ml-5 rounded-lg h-[80%] bg-[#121212] text-white flex  fixed ${
         expanded ? "w-68" : "w-20"
       }`}
     >
