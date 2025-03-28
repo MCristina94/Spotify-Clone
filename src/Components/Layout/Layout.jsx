@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import Navbar from "../Navbar";
 import DrawerLeft from "../DrawerLeft";
 import Footer from "../Footer";
+import DrawerRight from "../DrawerRight";
 
 const Layout = ({ children }) => {
   const [expanded, setExpanded] = useState(false);
+  const [expandedRight, setExpandedRight] = useState(false);
   return (
     <div className="h-screen flex flex-col">
       <Navbar className="h-[60px] fixed w-full top-0 z-10" />
@@ -14,12 +16,21 @@ const Layout = ({ children }) => {
           <DrawerLeft expanded={expanded} setExpanded={setExpanded} />
         </div>
 
+        <div sName="w-64 min-w-[16rem] flex-none">
+          <DrawerRight
+            expanded={expandedRight}
+            setExpanded={setExpandedRight}
+          />
+        </div>
+
         <div
           className={`flex-grow text-white mr-5 transition-all duration-300 pb-[105px] ${
             expanded ? "ml-48" : "null"
-          }`}
+          } ${expandedRight ? "mr-60" : "null"}`}
         >
-          {children}
+          {React.cloneElement(children, {
+            onCardClick: () => setExpandedRight(true),
+          })}
         </div>
       </div>
       <div className="fixed bottom-0 left-0 w-full bg-black">

@@ -2,7 +2,7 @@ import React from "react";
 import dataSongsHome from "../utils/info.json";
 import Card from "../Components/Card";
 
-const Home = () => {
+const Home = ({ onCardClick }) => {
   const songsHome = dataSongsHome.songsHome;
   const songsRecomendation = dataSongsHome.recomendations;
   const mostListened = dataSongsHome.mostListened;
@@ -47,7 +47,7 @@ const Home = () => {
         <h2 className="text-[24px] font-bold">Especialmente para ti</h2>
         <div className="flex flex-wrap gap-2">
           {songsRecomendation.map((song, index) => (
-            <Card key={index} recomendations={song} />
+            <Card key={index} recomendations={song} onCardClick={onCardClick} />
           ))}
         </div>
       </div>
@@ -56,7 +56,7 @@ const Home = () => {
         <h2 className="text-[24px] font-bold">Los artistas más escuchados</h2>
         <div className="flex flex-wrap gap-2">
           {mostListened.map((song, index) => (
-            <Card key={index} recomendations={song} />
+            <Card key={index} recomendations={song} onCardClick={onCardClick} />
           ))}
         </div>
       </div>

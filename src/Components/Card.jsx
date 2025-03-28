@@ -2,9 +2,12 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay } from "@fortawesome/free-solid-svg-icons/faPlay";
 
-const Card = ({ recomendations }) => {
+const Card = ({ recomendations, onCardClick }) => {
   return (
-    <div className="relative flex flex-col justify-center items-center gap-2 h-[250px] w-[200px] hover:bg-[#282828] cursor-pointer rounded-md group">
+    <div
+      onClick={onCardClick}
+      className="relative flex flex-col justify-center items-center gap-2 h-[250px] w-[200px] hover:bg-[#282828] cursor-pointer rounded-md group"
+    >
       <img
         src={recomendations.image}
         alt=""
