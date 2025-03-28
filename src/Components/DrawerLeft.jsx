@@ -10,12 +10,10 @@ import {
   faThumbtack,
 } from "@fortawesome/free-solid-svg-icons";
 
-const DrawerLeft = () => {
-  const [expanded, setExpanded] = useState(false);
-
+const DrawerLeft = ({ expanded, setExpanded }) => {
   return (
     <div
-      className={`mx-5 rounded-lg h-screen bg-[#121212] text-white flex transition-all duration-300  max-h-[full]  ${
+      className={`mt-22 ml-5 rounded-lg h-[auto] bg-[#121212] text-white flex transition-all duration-300 fixed ${
         expanded ? "w-68" : "w-20"
       }`}
     >

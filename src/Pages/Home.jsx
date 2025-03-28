@@ -8,21 +8,21 @@ const Home = () => {
   const mostListened = dataSongsHome.mostListened;
 
   return (
-    <div
-      className="h-full w-full flex flex-col p-10"
+    <main
+      className="h-[auto] w-[94%] flex flex-col pt-10 px-10 mt-22 ml-30 rounded-md "
       style={{
         background:
           "linear-gradient(180deg, rgba(67,70,100,1) 10%, rgba(45,46,65,1) 22%, rgba(18,18,18,1) 100%)",
       }}
     >
-      <div className="flex flex-row mb-5 gap-2 ml-2">
-        <div className=" bg-[#595a74] cursor-pointer p-2 px-3 rounded-3xl hover:bg-white hover:text-black">
+      <div className="flex flex-row mb-5 gap-2 ml-2  ">
+        <div className=" bg-[rgba(89,90,116,0.6)] cursor-pointer p-2 px-3 rounded-3xl hover:bg-white hover:text-black">
           <h3 className="text-[13px] font-light">Todo</h3>
         </div>
-        <div className=" bg-[#595a74] cursor-pointer p-2 px-3 rounded-3xl  hover:bg-white hover:text-black">
+        <div className=" bg-[rgba(89,90,116,0.6)] cursor-pointer p-2 px-3 rounded-3xl  hover:bg-white hover:text-black">
           <h3 className="text-[13px] font-light">Música</h3>
         </div>
-        <div className=" bg-[#595a74] cursor-pointer p-2 px-3 rounded-3xl  hover:bg-white hover:text-black">
+        <div className=" bg-[rgba(89,90,116,0.6)] cursor-pointer p-2 px-3 rounded-3xl  hover:bg-white hover:text-black">
           <h3 className="text-[13px] font-light">Pódcasts</h3>
         </div>
       </div>
@@ -60,7 +60,7 @@ const Home = () => {
           ))}
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

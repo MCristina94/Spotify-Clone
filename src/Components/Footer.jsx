@@ -17,7 +17,7 @@ import { faCirclePlay as playIcon } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
-    <div className="h-[100px] p-5 flex flex-row justify-between mr-10">
+    <footer className="h-[100px] p-5 flex flex-row justify-between mr-10">
       <div className="mx-5 flex flex-row">
         <img src={imageSabrina} className="w-[60px] h-[60px] rounded-md" />
         <div className="flex flex-col  mx-5 justify-center ">
@@ -91,7 +91,7 @@ const Footer = () => {
           className=" text-[#7d7d7d] cursor-pointer  hover:text-white"
         />
       </div>
-    </div>
+    </footer>
   );
 };
 
