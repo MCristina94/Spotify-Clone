@@ -34,11 +34,6 @@
       "album": "El Kanka",
       "image": "../../public/images/kanka.jpeg",
       "info": "Artista"
-    },
-    {
-      "album": "Té Canela",
-      "image": "../../public/images/tecanela.jpeg",
-      "info": "Artista"
     }
   ],
   "songsHome": [

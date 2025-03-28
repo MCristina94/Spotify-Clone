@@ -10,7 +10,7 @@ import { faBell } from "@fortawesome/free-regular-svg-icons";
 
 const Navbar = () => {
   return (
-    <header className="flex flex-row justify-between  px-6 fixed bg-black w-[100%]">
+    <header className="flex flex-row justify-between  px-5 fixed bg-black w-[100%] z-50">
       <div className="flex flex-row justify-between p-5">
         <FontAwesomeIcon
           icon={faSpotify}

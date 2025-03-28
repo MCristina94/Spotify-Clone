@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
   const [selectedCard, setSelectedCard] = useState(null);
   return (
     <div className="h-screen flex flex-col">
-      <Navbar className="h-[60px] fixed w-full top-0 z-10" />
+      <Navbar className="h-[60px] fixed w-full top-0 z-50" />
 
       <div className="flex flex-grow ">
         <div sName="w-64 min-w-[16rem] flex-none">
