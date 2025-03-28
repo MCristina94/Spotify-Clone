@@ -15,14 +15,16 @@ const Layout = ({ children }) => {
         </div>
 
         <div
-          className={`flex-grow text-white mr-5 transition-all duration-300 ${
+          className={`flex-grow text-white mr-5 transition-all duration-300 pb-[105px] ${
             expanded ? "ml-48" : "null"
           }`}
         >
           {children}
         </div>
       </div>
-      {/* <Footer className=" w-full " /> */}
+      <div className="fixed bottom-0 left-0 w-full bg-black">
+        <Footer className="w-full" />
+      </div>
     </div>
   );
 };

@@ -13,11 +13,11 @@ import {
 const DrawerLeft = ({ expanded, setExpanded }) => {
   return (
     <div
-      className={`mt-22 ml-5 rounded-lg h-[auto] bg-[#121212] text-white flex transition-all duration-300 fixed ${
+      className={`mt-22 ml-5 rounded-lg h-[80%] bg-[#121212] text-white flex transition-all duration-300 fixed ${
         expanded ? "w-68" : "w-20"
       }`}
     >
-      <div className="flex flex-col w-full h-full p-4 items-center">
+      <div className="flex flex-col w-full h-full p-4 items-center overflow-y-auto">
         <button
           onClick={() => setExpanded(!expanded)}
           className=" flex items-center gap-2 p-2 rounded-lg cursor-pointer"

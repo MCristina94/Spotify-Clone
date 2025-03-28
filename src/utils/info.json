@@ -39,27 +39,6 @@
       "album": "Té Canela",
       "image": "../../public/images/tecanela.jpeg",
       "info": "Artista"
-    },
-    {
-      "album": "The Killers",
-      "image": "../../public/images/thekillers.jpeg",
-      "info": "Artista"
-    },
-    {
-      "album": "The White Stripes",
-      "image": "../../public/images/thewhitestripes.jpeg",
-      "info": "Artista"
-    },
-    {
-      "album": "This is Camilo",
-      "image": "../../public/images/thisiscamilo.jpg",
-      "info": "Lista - Spotify"
-    },
-
-    {
-      "album": "This is ColdPlay",
-      "image": "../../public/images/thisiscoldplay.jpeg",
-      "info": "Lista - Spotify"
     }
   ],
   "songsHome": [

@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
     <main
-      className="h-[auto] w-[94%] flex flex-col pt-10 px-10 mt-22 ml-30 rounded-md "
+      className=" w-[94%] flex flex-col pt-10 px-10 mt-22 ml-30 rounded-md "
       style={{
         background:
           "linear-gradient(180deg, rgba(67,70,100,1) 10%, rgba(45,46,65,1) 22%, rgba(18,18,18,1) 100%)",
