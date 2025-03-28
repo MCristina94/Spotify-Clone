@@ -13,7 +13,7 @@ const DrawerRight = ({ expanded, setExpanded, selectedCard }) => {
     >
       <div>
         <button
-          className="absolute top-4 right-4 text-white"
+          className="absolute top-4 right-4 text-white cursor-pointer"
           onClick={() => setExpanded(false)}
         >
           ✖
@@ -38,7 +38,7 @@ const DrawerRight = ({ expanded, setExpanded, selectedCard }) => {
           <h3 className="text-[#9a9797]">{selectedCard.album}</h3>
         </div>
       </div>
-      <div className="my-5 ml-5 flex flex-col items-center w-[85%] py-2 gap-2 bg-[#2c2c2c] rounded-md ">
+      <div className="my-5 ml-5 flex flex-col items-center w-[85%] py-2 gap-2 bg-[#2c2c2c] rounded-md  ">
         <h2 className="text-[15px]">Canciones relacionadas</h2>
         <img
           img
