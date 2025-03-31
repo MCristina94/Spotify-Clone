@@ -3,11 +3,13 @@ import Navbar from "../Navbar";
 import DrawerLeft from "../DrawerLeft";
 import Footer from "../Footer";
 import DrawerRight from "../DrawerRight";
+import { useMediaQuery } from "react-responsive";
 
 const Layout = ({ children }) => {
   const [expanded, setExpanded] = useState(false);
   const [expandedRight, setExpandedRight] = useState(true);
   const [selectedCard, setSelectedCard] = useState(null);
+  const isMobile = useMediaQuery({ query: "(max-width: 600px)" });
   return (
     <div className="h-screen flex flex-col">
       <Navbar className="h-[60px] fixed w-full top-0 z-50" />
@@ -26,9 +28,9 @@ const Layout = ({ children }) => {
         </div>
 
         <div
-          className={`flex-grow text-white mr-5 transition-all duration-300 pb-[105px] ${
-            expanded ? "ml-48" : "null"
-          } ${expandedRight ? "mr-75" : "null"}`}
+          className={`flex-grow text-white mr-5 transition-all duration-300 pb-[105px] 
+    ${!isMobile && expanded ? "ml-48" : ""} 
+    ${!isMobile && expandedRight ? "mr-75" : ""}`}
         >
           {React.cloneElement(children, {
             onCardClick: (card) => {

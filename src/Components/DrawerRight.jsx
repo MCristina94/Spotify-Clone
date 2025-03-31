@@ -2,8 +2,11 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCirclePlay } from "@fortawesome/free-regular-svg-icons/faCirclePlay";
 import favoriteSong from "../../public/images/favoriteSong.jpeg";
+import { useMediaQuery } from "react-responsive";
 
 const DrawerRight = ({ expanded, setExpanded, selectedCard }) => {
+  const isMobile = useMediaQuery({ query: "(max-width: 600px)" });
+  if (isMobile) return null;
   return (
     <div
       className={`flex flex-col fixed top-0 right-0 mt-[85px] h-full w-65 bg-[#121212] rounded-md text-white transition-transform duration-300 ${

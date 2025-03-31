@@ -9,8 +9,11 @@ import {
   faList,
   faThumbtack,
 } from "@fortawesome/free-solid-svg-icons";
+import { useMediaQuery } from "react-responsive";
 
 const DrawerLeft = ({ expanded, setExpanded }) => {
+  const isMobile = useMediaQuery({ query: "(max-width: 600px)" });
+  if (isMobile) return null;
   return (
     <div
       className={`mt-22 ml-5 rounded-lg h-[80%] bg-[#121212] text-white flex  fixed ${
