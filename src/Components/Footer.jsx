@@ -104,37 +104,37 @@ const Footer = () => {
           </div>
         </footer>
       ) : (
-        <footer className="flex flex-row gap-10 justify-center text-center">
-          <div>
+        <footer className="flex flex-row gap-10 justify-center text-center py-2">
+          <div className="mx-5">
             {" "}
             <FontAwesomeIcon
               icon={faHouse}
               className=" text-white cursor-pointer "
             />
-            <h4 className="text-white">Home</h4>
+            <h4 className="text-white text-[10px]">Home</h4>
           </div>
-          <div>
+          <div className="mx-5">
             <FontAwesomeIcon
               icon={faMagnifyingGlass}
               className=" text-[#7d7d7d] cursor-pointer "
             />
-            <h4 className="text-[#7d7d7d] ">Search</h4>
+            <h4 className="text-[#7d7d7d] text-[10px]">Search</h4>
           </div>
-          <div>
+          <div className="mx-5">
             {" "}
             <FontAwesomeIcon
               icon={faBookmarkSolid}
               className=" text-[#7d7d7d] cursor-pointer "
             />
-            <h4 className="text-[#7d7d7d] ">Your Library</h4>
+            <h4 className="text-[#7d7d7d] text-[10px]">Your Library</h4>
           </div>
-          <div>
+          <div className="mx-5">
             {" "}
             <FontAwesomeIcon
               icon={faPlus}
               className=" text-[#7d7d7d] cursor-pointer "
             />
-            <h4 className="text-[#7d7d7d] ">Creast</h4>
+            <h4 className="text-[#7d7d7d] text-[10px]">Creast</h4>
           </div>
         </footer>
       )}
