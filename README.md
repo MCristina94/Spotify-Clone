@@ -1,12 +1,67 @@
-# React + Vite
+# Spotify - Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a clone of the Home view of Spotify, built with React and Tailwind CSS, replicating the original design in a responsive way.
 
-Currently, two official plugins are available:
+📌 Features
+✅ Responsive design that adapts to different screen sizes.
+✅ Dynamic data loading from a JSON file.
+✅ Reusable components for song and artist cards.
+✅ TailwindCSS and React Responsive for an improved UI/UX experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To see the website in action, click the following link: [Spotify - Clone](https://spotify-clone-self-gamma-39.vercel.app/)
 
-## Expanding the ESLint configuration
+## Technologies Used ⚙️
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project was developed using the following technologies:
+
+React
+
+JavaScript
+
+Vite (Build tool for web applications)
+
+TailwindCSS
+
+### Cloning Instructions 🔧
+
+_If you want to clone the repository and explore the code in a development environment, follow these steps:_
+
+1. Clone the repository from GitHub:
+
+```
+git clone <URL_del_repositorio>
+```
+
+2. Navigate to the project directory:
+
+```
+cd nombre_del_proyecto
+```
+
+3. Install the necessary dependencies:
+
+```
+npm install
+```
+
+4. Start the development server:
+
+```
+npm run dev
+```
+
+Once the server is running, you can access the project locally in your web browser.
+
+## Built With 🛠️
+
+- ([React](https://es.react.dev/learn/installation)) - El framework usado
+- ([TailwindCSS](https://tailwindcss.com/docs/installation/using-vite)) - Libreria de estilos
+- ([Vite](https://es.vitejs.dev/guide/)) - Herramienta de construcción
+
+## Authors ✒️
+
+- **Maureen** - _Frontend_ - [MCristina94](https://github.com/MCristina94)
+
+---
+
+⌨️ with ❤️ by [MCristina94](https://github.com/MCristina94)😊
