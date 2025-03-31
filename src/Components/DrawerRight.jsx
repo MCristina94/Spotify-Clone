@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCirclePlay } from "@fortawesome/free-regular-svg-icons/faCirclePlay";
 import favoriteSong from "/images/favoriteSong.jpeg";
+import yellowSong from "/images/thisiscoldplay.jpeg";
 import { useMediaQuery } from "react-responsive";
 
 const DrawerRight = ({ expanded, setExpanded, selectedCard }) => {
@@ -70,11 +71,7 @@ const DrawerRight = ({ expanded, setExpanded, selectedCard }) => {
       </div>
       <div className="my-5 ml-5 flex flex-col items-center w-[85%] py-2 gap-2 bg-[#2c2c2c] rounded-md  ">
         <h2 className="text-[15px]">Canciones relacionadas</h2>
-        <img
-          img
-          className="rounded-md h-[180px] w-[180px] "
-          src="/images/thisiscoldplay.jpeg"
-        />
+        <img img className="rounded-md h-[180px] w-[180px] " src={yellowSong} />
         <h2>Yellow</h2>
         <h3 className="text-[#9a9797] text-[12px]">ColdPlay</h3>
       </div>
