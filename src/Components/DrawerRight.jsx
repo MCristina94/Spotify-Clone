@@ -73,7 +73,7 @@ const DrawerRight = ({ expanded, setExpanded, selectedCard }) => {
         <img
           img
           className="rounded-md h-[180px] w-[180px] "
-          src="../../public/images/thisiscoldplay.jpeg"
+          src="/images/thisiscoldplay.jpeg"
         />
         <h2>Yellow</h2>
         <h3 className="text-[#9a9797] text-[12px]">ColdPlay</h3>
