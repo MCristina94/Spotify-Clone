@@ -6,7 +6,7 @@ import DrawerRight from "../DrawerRight";
 
 const Layout = ({ children }) => {
   const [expanded, setExpanded] = useState(false);
-  const [expandedRight, setExpandedRight] = useState(false);
+  const [expandedRight, setExpandedRight] = useState(true);
   const [selectedCard, setSelectedCard] = useState(null);
   return (
     <div className="h-screen flex flex-col">
