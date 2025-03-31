@@ -64,7 +64,7 @@ const Navbar = () => {
           </div>
         </header>
       ) : (
-        <header className="flex flex-row  py-5 px-5 fixed bg-black w-[100%] z-50 ">
+        <header className="flex flex-row  py-5 px-5 fixed !important bg-black w-[100%] z-50 ">
           {" "}
           <div className="w-12 h-12 flex items-center justify-center rounded-full  text-black text-[15px] ">
             <div className="w-8 h-8 flex items-center justify-center rounded-full bg-[#4d98f0] text-black text-[15px]">

@@ -8,6 +8,7 @@ const Home = ({ onCardClick }) => {
   const songsRecomendation = dataSongsHome.recomendations;
   const mostListened = dataSongsHome.mostListened;
   const isMobile = useMediaQuery({ query: "(max-width: 600px)" });
+  const cardsVisible = 2.5;
 
   return (
     <>
@@ -91,6 +92,42 @@ const Home = ({ onCardClick }) => {
                 <h3 className="text-[12px] text-white"> {song.album}</h3>
               </div>
             ))}
+          </div>
+
+          <div className="my-5 ml-2 flex flex-col w-[430px]">
+            <h2 className="text-[24px] font-bold">
+              Los artistas más escuchados
+            </h2>
+            <div className="flex flex-nowrap overflow-x-auto scroll-smooth w-full">
+              {mostListened.map((song, index) => (
+                <div
+                  key={index}
+                  className={`flex-shrink-0 w-[calc(100vw/${cardsVisible})]`}
+                >
+                  <Card
+                    recomendations={song}
+                    onCardClick={() => onCardClick(song)}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="my-5 ml-2 flex flex-col w-[430px]">
+            <h2 className="text-[24px] font-bold">Especialmente para ti</h2>
+            <div className="flex flex-nowrap overflow-x-auto scroll-smooth w-full">
+              {songsRecomendation.map((song, index) => (
+                <div
+                  key={index}
+                  className={`flex-shrink-0 w-[calc(100vw/${cardsVisible})]`}
+                >
+                  <Card
+                    recomendations={song}
+                    onCardClick={() => onCardClick(song)}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </main>
       )}
