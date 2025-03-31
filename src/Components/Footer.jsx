@@ -1,5 +1,5 @@
 import React from "react";
-import imageSabrina from "../../public/images/sabrinacarpenter.jpeg";
+import imageSabrina from "/images/sabrinacarpenter.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCirclePlay } from "@fortawesome/free-regular-svg-icons/faCirclePlay";
 import {

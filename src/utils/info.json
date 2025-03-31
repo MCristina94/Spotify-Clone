@@ -2,114 +2,114 @@
   "songsDrawerLeft": [
     {
       "album": "Canciones que te gustan",
-      "image": "../../public/images/likeSongs.png",
+      "image": "/images/likeSongs.png",
       "info": "Lista - 35 canciones"
     },
     {
       "album": "Rawayana",
-      "image": "../../public/images/rawayana.jpeg",
+      "image": "/images/rawayana.jpeg",
       "info": "Artista"
     },
     {
       "album": "Bizarrap",
-      "image": "../../public/images/bizarrap.jpeg",
+      "image": "/images/bizarrap.jpeg",
       "info": "Artista"
     },
     {
       "album": "Good Charlotte",
-      "image": "../../public/images/goodcharlotte.jpeg",
+      "image": "/images/goodcharlotte.jpeg",
       "info": "Artista"
     },
     {
       "album": "Green day",
-      "image": "../../public/images/greenday.jpeg",
+      "image": "/images/greenday.jpeg",
       "info": "Artista"
     },
     {
       "album": "Imagine dragons",
-      "image": "../../public/images/imaginedragons.jpeg",
+      "image": "/images/imaginedragons.jpeg",
       "info": "Artista"
     },
     {
       "album": "El Kanka",
-      "image": "../../public/images/kanka.jpeg",
+      "image": "/images/kanka.jpeg",
       "info": "Artista"
     }
   ],
   "songsHome": [
     {
       "album": "Radio Lady Gaga",
-      "image": "../../public/images/radioladygaga.jpeg"
+      "image": "/images/radioladygaga.jpeg"
     },
     {
       "album": "Rawayana",
-      "image": "../../public/images/rawayana.jpeg"
+      "image": "/images/rawayana.jpeg"
     },
     {
       "album": "Bizarrap",
-      "image": "../../public/images/bizarrap.jpeg"
+      "image": "/images/bizarrap.jpeg"
     },
     {
       "album": "This is Green Day",
-      "image": "../../public/images/thisisgreenday.jpg"
+      "image": "/images/thisisgreenday.jpg"
     },
     {
       "album": "This is Shakira",
-      "image": "../../public/images/thisishakira.jpg"
+      "image": "/images/thisishakira.jpg"
     },
     {
       "album": "Vance Joy",
-      "image": "../../public/images/vanceejoy.jpeg"
+      "image": "/images/vanceejoy.jpeg"
     },
     {
       "album": "This is Camilo",
-      "image": "../../public/images/thisiscamilo.jpg"
+      "image": "/images/thisiscamilo.jpg"
     },
 
     {
       "album": "This is ColdPlay",
-      "image": "../../public/images/thisiscoldplay.jpeg"
+      "image": "/images/thisiscoldplay.jpeg"
     }
   ],
   "recomendations": [
     {
       "album": "Bryan Adams",
-      "image": "../../public/images/bryanadams.jpeg",
+      "image": "/images/bryanadams.jpeg",
       "info": "Las novedades de artistas...",
       "song": "Heaven"
     },
     {
       "album": "Arctic Monkeys",
-      "image": "../../public/images/articmonkeys.jpeg",
+      "image": "/images/articmonkeys.jpeg",
       "info": "Este es un album que te puede gustar",
       "song": "Do I Wanna Know?"
     },
     {
       "album": "Descubrimientos de la semana",
-      "image": "../../public/images/descubrimientosemanal.jpeg",
+      "image": "/images/descubrimientosemanal.jpeg",
       "info": "Tu combinado semanal de música ..."
     },
     {
       "album": "Kiss",
-      "image": "../../public/images/kiss.jpeg",
+      "image": "/images/kiss.jpeg",
       "info": "Un clasico especial para hoy",
       "song": "Sweet Child O'Mine"
     },
     {
       "album": "Adele",
-      "image": "../../public/images/adele.jpeg",
+      "image": "/images/adele.jpeg",
       "info": "Puede gustarte este artist...",
       "song": "Someone Like You"
     },
     {
       "album": "Daftpunk",
-      "image": "../../public/images/daftpunk.jpeg",
+      "image": "/images/daftpunk.jpeg",
       "info": "Escucha esta banda hoy",
       "song": "Get Lucky"
     },
     {
       "album": "Dua lipa",
-      "image": "../../public/images/dualipa.jpeg",
+      "image": "/images/dualipa.jpeg",
       "info": "Si quieres bailar, escucha a Dua Lipa",
       "song": "Don't Start Now"
     }
@@ -117,43 +117,43 @@
   "mostListened": [
     {
       "album": "Ariana Grande",
-      "image": "../../public/images/arianagrande.jpeg",
+      "image": "/images/arianagrande.jpeg",
       "info": "Los exitos del pop de Ariana",
       "song": "Thank u, next"
     },
     {
       "album": "BTS",
-      "image": "../../public/images/bts.jpeg",
+      "image": "/images/bts.jpeg",
       "info": "Las mejores canciones de BTS!",
       "song": "Butter"
     },
     {
       "album": "Justin Bieber",
-      "image": "../../public/images/justinbieber.jpeg",
+      "image": "/images/justinbieber.jpeg",
       "info": "Al ritmo de Justin Bieber",
       "song": "Somebody to Love"
     },
     {
       "album": "Paramore",
-      "image": "../../public/images/paramore.jpeg",
+      "image": "/images/paramore.jpeg",
       "info": "Un clasico alternativo...",
       "song": "Crush Crush Crush"
     },
     {
       "album": "Sabrina Carpenter",
-      "image": "../../public/images/sabrinacarpenter.jpeg",
+      "image": "/images/sabrinacarpenter.jpeg",
       "info": "Elección de exitos de Sabrina Carpenter.",
       "song": "Expresso"
     },
     {
       "album": "Taylor Swift",
-      "image": "../../public/images/taylorswift.jpeg",
+      "image": "/images/taylorswift.jpeg",
       "info": "Lo mejor de Taylor Swift, pop del bueno",
       "song": "Shake it Off"
     },
     {
       "album": "The Weekend",
-      "image": "../../public/images/theweekend.jpeg",
+      "image": "/images/theweekend.jpeg",
       "info": "Especial para salir de viaje",
       "song": "Earned It"
     }

@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCirclePlay } from "@fortawesome/free-regular-svg-icons/faCirclePlay";
-import favoriteSong from "../../public/images/favoriteSong.jpeg";
+import favoriteSong from "/images/favoriteSong.jpeg";
 import { useMediaQuery } from "react-responsive";
 
 const DrawerRight = ({ expanded, setExpanded, selectedCard }) => {
